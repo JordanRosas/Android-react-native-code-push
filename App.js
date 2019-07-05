@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  Button
 } from 'react-native';
 
 import {
@@ -38,6 +39,7 @@ const App = () => {
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Welcome To React Native Jordan!
+                <Button>Code Push</Button>
               </Text>
             </View>
             <View style={styles.sectionContainer}>
