@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Component, Fragment} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -14,9 +14,10 @@ import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App = () => {
-  return (
-    <Fragment>
+export default class App extends Component{
+  render(){
+    return(
+      <Fragment>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
@@ -33,7 +34,8 @@ const App = () => {
         </ScrollView>
       </SafeAreaView>
     </Fragment>
-  );
+    )
+  }
 };
 
 const styles = StyleSheet.create({
@@ -63,4 +65,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+
