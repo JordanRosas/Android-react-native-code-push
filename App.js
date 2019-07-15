@@ -38,7 +38,7 @@ const App = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
-                Welcome To React Native Jordan!
+                Welcome To Rudolph Tire Trucking!
               </Text>
             </View>
             <View style={styles.sectionContainer}>
