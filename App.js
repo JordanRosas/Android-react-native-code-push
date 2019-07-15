@@ -45,6 +45,7 @@ const App = () => {
               <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
+                <Button>Push Me</Button>
               </Text>
             </View>
             <View style={styles.sectionContainer}>
